@@ -20,13 +20,13 @@ function Banner() {
   ];
 
   return (
-    <section className="flex flex-col w-full lg:w-1/3 lg:fixed">
-      <div className="bg-transparent border rounded-3xl border-purple-200 p-10">
-        <p className="font-raleway font-bold text-2xl">Lorraine Makuyana</p>
+    <section className="flex w-full flex-col lg:fixed lg:w-1/3">
+      <div className="rounded-3xl border border-purple-200 bg-transparent p-10">
+        <p className="font-raleway text-2xl font-bold">Lorraine Makuyana</p>
         <Image
           width={200}
           height={200}
-          className="w-full h-full object-contain"
+          className="h-full w-full object-contain"
           src={Headshot}
           alt="Headshot"
         />
@@ -36,13 +36,13 @@ function Banner() {
           {links.map((link, index) => (
             <div
               key={index}
-              className="border border-x border-purple-200 text-purple-200 flex itemx-center justify-center cursor-pointer hover:scale-105 transition-transform"
+              className="itemx-center flex cursor-pointer justify-center border border-x border-purple-200 text-purple-200 transition-transform hover:scale-105"
             >
               {link.icon}
             </div>
           ))}
         </div>
-        <div className="cursor-pointer w-full text-center bg-gradient-to-r from-pink-200 via-purple-300 to-purple-400">
+        <div className="w-full cursor-pointer bg-gradient-to-r from-pink-200 via-purple-300 to-purple-400 text-center">
           Hire me!
         </div>
       </div>
