@@ -1,9 +1,11 @@
 import React, { ReactNode } from "react";
+import Header from "./Header";
 
 function Wrapper({ children }: { children: ReactNode }) {
   return (
-    <main className="h-screen w-screen">
-      <div className="mx-auto h-full w-full flex-col overflow-y-auto overflow-x-hidden px-10 lg:flex-row xl:max-w-screen-xl xl:px-0">
+    <main className="h-screen w-screen bg-zinc-900">
+      <Header />
+      <div className="mx-auto w-full lg:w-2/3 xl:max-w-screen-md">
         {children}
       </div>
     </main>

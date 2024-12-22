@@ -14,6 +14,11 @@ module.exports = {
         playfair: ["Playfair Display"],
         raleway: ["Raleway"],
       },
+      colors: {
+        white: "#ffffff",
+        lightBlue: "#00d2ff",
+        blue: "#3a7bd5",
+      },
     },
   },
   plugins: [],
