@@ -8,12 +8,13 @@ export const DATA = {
   location: "Scotland, United Kingdom",
   locationLink: "https://www.google.com/maps/place/scotland",
   description:
-    "Dynamic software engineer delivering value with every impactful product engineered!",
+    "Dynamic software engineer with over 2 years experience delivering value with every impactful product engineered!",
   summary:
-    "To me, technology represents the realization of our dreams. It has the flexibility and potential to extend my limits, feed my curiosity and enable me to be a creator and builder in any field. I strive to stay alert and constantly engaged in learning, keeping up with new techniques to improve both my problem-solving and technical skills and become a better engineer.",
+    "To me, technology represents the realization of our dreams. It has the flexibility to feed my curiosity and be a creator and builder in any sector. I stay alert by constantly being engaged in learning and keeping up with new techniques to improve both my problem-solving and technical skills.",
   avatarUrl: "/me.png",
   skills: [
     "React",
+    "Redux",
     "Next.js",
     "Typescript",
     "Node.js",
@@ -24,7 +25,7 @@ export const DATA = {
     { href: "/", icon: HomeIcon, label: "Home" },
   ],
   contact: {
-    email: "lorrainem.dev@gmail.com",
+    email: "",
     tel: "+123456789",
     social: {
       GitHub: {
@@ -54,7 +55,6 @@ export const DATA = {
       },
     },
   },
-
   work: [
     {
       company: "Sailboat Labs",
@@ -66,7 +66,7 @@ export const DATA = {
       start: "Jun 2022",
       end: "Aug 2024",
       description:
-        "Designed and implemented a robust web application utilizing Next.js, TypeScript, and Firebase generating over $10k revenue. Spearheaded end-to-end development of mobile applications resulting in widespread customer adoption. Effectively intergrated into dynamic and crossfunctional teams to deliver high-quality software solutions.",
+        "Designed and implemented a robust web application utilizing Next.js, TypeScript, and Firebase, generating over $10k in revenue for sports teams to acquire new equipment, purchase new uniforms, and court renovations. Spearheaded end-to-end development of mobile applications leveraging React Native and Firebase with minimal supervision resulting in widespread customer adoption and satisfaction which significantly boosted revenue. Implemented end-to-end automated tests for web applications using Cypress, identifying and resolving bugs before deployment. Increased web and mobile application performance using Redux, improving data flow and state consistency. Effectively integrated into dynamic cross-functional teams with diverse expertise ensuring optimal project delivery",
     },
     {
       company: "Bruteforce Engineering Zimbabwe",
@@ -97,7 +97,7 @@ export const DATA = {
     {
       school: "University of St Andrews",
       href: "https://www.st-andrews.ac.uk/",
-      degree: "Master's Degree Computer Science",
+      degree: "MSc. Computer Science ",
       logoUrl: "/standrews.png",
       start: "2024",
       end: "2025",
@@ -105,7 +105,7 @@ export const DATA = {
     {
       school: "Ashesi University",
       href: "https://ashesi.edu.gh/",
-      degree: "Bachelor's Degree Computer Engineering",
+      degree: "BSc. Computer Engineering",
       logoUrl: "/ashesi.png",
       start: "2018",
       end: "2022",
@@ -118,7 +118,7 @@ export const DATA = {
       dates: "2023 - 2024",
       active: true,
       description:
-        "A fundraising platform for sports teams. It allows all CRUD operations for teams, players, and coached. It supports Stripe payments and has a dashboard for analytics.",
+        "A fundraising platform for sports teams allowing secure donations through using a Stripe payment gateway. It allows all CRUD operations for teams, players, and coaches, and includes a dashboard for fundraiser analytics.",
       technologies: [
         "Next.js",
         "Typescript",
@@ -126,6 +126,7 @@ export const DATA = {
         "TailwindCSS",
         "Stripe",
         "Shadcn UI",
+        "Redux"
       ],
       links: [
         {
@@ -144,13 +145,16 @@ export const DATA = {
       dates: "2022 - 2024",
       active: true,
       description:
-        "A mobile application with engaging and animated lessons for kids to learn robotics and other topics. ",
+        "An engaging mobile application available on both android and iOS with animated lessons for kids to learn robotics and other topics through a gamified experience. It includes parental control functionality to unlock some features.",
       technologies: [
         "React Native",
         "Typescript",
         "Firebase",
         "TailwindCSS",
-        "ML",
+        // "ML",
+        "Redux",
+        "iOS",
+        "Android"
       ],
       links: [
         {
@@ -168,13 +172,15 @@ export const DATA = {
       dates: "2023 - 2024",
       active: true,
       description:
-        "A platform for artists to create custom emojis out of NFT tokens",
+        "An end-to-end platform for artists to create custom emojis and gifs out of NFT tokens.",
       technologies: [
         "Next.js",
         "Typescript",
         "Express",
         "TailwindCSS",
         "Firebase",
+        "Web3",
+        "GSAP"
       ],
       links: [
         {
