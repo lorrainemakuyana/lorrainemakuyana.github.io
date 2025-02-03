@@ -65,8 +65,14 @@ export const DATA = {
       logoUrl: "/sailboat.png",
       start: "Jun 2022",
       end: "Aug 2024",
-      description:
-        "Designed and implemented a robust web application utilizing Next.js, TypeScript, and Firebase, generating over $10k in revenue for sports teams to acquire new equipment, purchase new uniforms, and court renovations. Spearheaded end-to-end development of mobile applications leveraging React Native and Firebase with minimal supervision resulting in widespread customer adoption and satisfaction which significantly boosted revenue. Implemented end-to-end automated tests for web applications using Cypress, identifying and resolving bugs before deployment. Increased web and mobile application performance using Redux, improving data flow and state consistency. Effectively integrated into dynamic cross-functional teams with diverse expertise ensuring optimal project delivery",
+      // description: "Designed and implemented a robust web application utilizing Next.js, TypeScript, and Firebase, generating over $10k in revenue for sports teams to acquire new equipment, purchase new uniforms, and court renovations. Spearheaded end-to-end development of mobile applications leveraging React Native and Firebase with minimal supervision resulting in widespread customer adoption and satisfaction which significantly boosted revenue. Implemented end-to-end automated tests for web applications using Cypress, identifying and resolving bugs before deployment. Increased web and mobile application performance using Redux, improving data flow and state consistency. Effectively integrated into dynamic cross-functional teams with diverse expertise ensuring optimal project delivery",
+      description: [
+        "Designed and implemented a robust web application utilizing Next.js, TypeScript, and Firebase, generating over $10k in revenue for sports teams to acquire new equipment, purchase new uniforms, and court renovations.", 
+        "Spearheaded end-to-end development of mobile applications leveraging React Native and Firebase with minimal supervision resulting in widespread customer adoption and satisfaction which significantly boosted revenue.",
+        "Implemented end-to-end automated tests for web applications using Cypress, identifying and resolving bugs before deployment. ",
+        "Increased web and mobile application performance using Redux, improving data flow and state consistency. ",
+        "Effectively integrated into dynamic cross-functional teams with diverse expertise ensuring optimal project delivery"
+      ]
     },
     {
       company: "Bruteforce Engineering Zimbabwe",
@@ -77,8 +83,12 @@ export const DATA = {
       logoUrl: "/bruteforce.png",
       start: "Jun 2021",
       end: "Aug 2021",
-      description:
-        "Led the development of an IoT smart office system enhancing security and safety while streamlining admintrative tasks. Designed and implemented robust APIs using Node.js and SQL to support seamless functionality and coordination between system architecture.",
+      // description:
+      //   "Led the development of an IoT smart office system enhancing security and safety while streamlining admintrative tasks. Designed and implemented robust APIs using Node.js and SQL to support seamless functionality and coordination between system architecture.",
+      description: [
+        "Led the development of an IoT smart office system enhancing security and safety while streamlining admintrative tasks. ",
+        "Designed and implemented robust APIs using Node.js and SQL to support seamless functionality and coordination between system architecture.",
+      ]
     },
     {
       company: "CYST Company Ltd",
@@ -89,8 +99,11 @@ export const DATA = {
       logoUrl: "/cyst.png",
       start: "May 2021",
       end: "Jul 2021",
-      description:
+      // description:
+      //   "Developed JavaScript and React features leveraging the firm’s API which are now used to improve payment efficiency",
+      description:[
         "Developed JavaScript and React features leveraging the firm’s API which are now used to improve payment efficiency",
+      ]
     },
   ],
   education: [
