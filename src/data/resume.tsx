@@ -114,6 +114,17 @@ export const DATA = {
       logoUrl: "/standrews.png",
       start: "2024",
       end: "2025",
+      descriptionTitle: "Relevant courses",
+      description: [
+        "Object-Oriented Programming",
+        "Artificial Intelligence Principles", 
+        "Artificial Intelligence Practice", 
+        "Software Engineering Principles",
+        "Software Engineering Practice",
+        "Software Architecture and Design",
+        "User-Centred Interaction and Design",
+        "Interactive Software and Hardware",
+      ]
     },
     {
       school: "Ashesi University",
@@ -122,6 +133,16 @@ export const DATA = {
       logoUrl: "/ashesi.png",
       start: "2018",
       end: "2022",
+      descriptionTitle: "Relevant courses",
+      description: [
+        "Data Structures and Algorithms",
+        "Algorithm Design and Analysis",
+        "Web Technologies",
+        "Applied Programming for Engineering",
+        "Leadership Seminars",
+        "Computer Organization and Architecture",
+        "Project Management and Professional Practice",
+      ]
     },
   ],
   projects: [

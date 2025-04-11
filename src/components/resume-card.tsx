@@ -18,6 +18,7 @@ interface ResumeCardProps {
   badges?: readonly string[];
   period: string;
   description?: readonly string[];
+  descriptionTitle?: string,
 }
 export const ResumeCard = ({
   logoUrl,
@@ -28,10 +29,12 @@ export const ResumeCard = ({
   badges,
   period,
   description,
+  descriptionTitle,
 }: ResumeCardProps) => {
   const [isExpanded, setIsExpanded] = React.useState(false);
 
   const handleClick = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
+    console.log(description)
     if (description) {
       e.preventDefault();
       setIsExpanded(!isExpanded);
@@ -100,6 +103,11 @@ export const ResumeCard = ({
               }}
               className="mt-2 text-xs sm:text-sm"
             >
+              {descriptionTitle && (
+                <h3 className="inline-flex items-center justify-center font-semibold leading-none text-xs sm:text-sm">
+                {descriptionTitle}
+                </h3>
+              )}
               {/* {description} */}
               {description.map((desc, index) => (
                 <ul key={index} className="list-disc list-inside">
